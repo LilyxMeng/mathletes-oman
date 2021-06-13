@@ -85,7 +85,7 @@
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
 }
 
-/* .line {
+.line {
   border-bottom: 4px solid #24305e;
   padding-bottom: 15px;
   position: relative;
@@ -108,4 +108,4 @@
 .line:after {
   right: -5px;
   left: auto;
-} */
+}
