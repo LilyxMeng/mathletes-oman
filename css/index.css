@@ -38,7 +38,7 @@
   background-color: #f8e9a1;
   width: 90%;
   max-width: 400px;
-  padding: 8px 17px;
+  padding: 8px 18px;
   border-radius: 20px;
   font-size: 20px;
   color: #24305e;
@@ -46,6 +46,7 @@
   margin-bottom: 10px;
   transition: opacity 0.5s;
   text-align: start;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
 }
 
 .sign-up-btn:hover {
