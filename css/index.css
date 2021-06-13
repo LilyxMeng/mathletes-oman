@@ -1,0 +1,159 @@
+/* intro */
+.intro {
+  background-color: #669bbc;
+  border-radius: 20px;
+  width: 95%;
+  margin: auto;
+  margin-top: 120px;
+  margin-left: 2.5%;
+  display: inline-block;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.intro-content {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.intro-left {
+  display: grid;
+  padding: 20px 30px;
+}
+
+.intro-title {
+  color: white;
+  font-size: 50px;
+}
+
+.intro-description {
+  margin-top: 25px;
+  color: #9ed8db;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.sign-up-btn {
+  margin-top: 30px;
+  background-color: #f8e9a1;
+  width: 400px;
+  padding: 8px 0;
+  border-radius: 20px;
+  font-size: 20px;
+  color: #24305e;
+  font-weight: 600;
+  margin-bottom: 10px;
+  transition: opacity 0.5s;
+}
+
+.sign-up-btn:hover {
+  opacity: 0.8;
+  transition: opacity 0.5s;
+}
+
+.intro-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: stretch;
+}
+
+.intro-img {
+  width: 40vw;
+  max-width: 550px;
+  border-radius: 0 20px 20px 0;
+}
+
+@media (max-width: 1060px) {
+  .intro-title {
+    font-size: 40px;
+  }
+
+  .intro-description {
+    font-size: 18px;
+  }
+
+  .sign-up-btn {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 970px) {
+  .intro-right {
+    display: none;
+  }
+}
+
+/* programs */
+.programs {
+  width: 95%;
+  margin: auto;
+  margin-bottom: 80px;
+}
+
+.programs-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 30px;
+}
+
+.program-bg-light {
+  background-color: #9ed8db;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.program-bg-dark {
+  background-color: #669bbc;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.program-title {
+  text-align: center;
+  font-size: 25px;
+  color: #24305e;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.program-subtitle {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 25px;
+  font-weight: 600;
+  color: #24305e;
+  text-decoration: underline;
+}
+
+.program-description {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.availability {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  color: #24305e;
+  margin-bottom: 25px;
+}
+
+.read-more {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.read-more-link {
+  color: black;
+  text-decoration: underline solid transparent;
+  transition: text-decoration 0.3s ease;
+}
+
+.read-more-link:hover {
+  text-decoration: underline;
+  transition: text-decoration 0.3s ease;
+}

@@ -1,0 +1,66 @@
+/* programs  */
+.heading {
+  background-image: url("../images/math-white-opacity.png");
+  background-size: 250px auto;
+  border-radius: 20px;
+  width: 95%;
+  margin: auto;
+  margin-top: 120px;
+  margin-left: 2.5%;
+  margin-bottom: 30px;
+  display: inline-block;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.page-title {
+  font-size: 70px;
+  color: #24305e;
+  text-align: center;
+  padding: 20px;
+}
+
+/* programs details */
+.programs {
+  background-color: #669bbc;
+  border-radius: 20px;
+  width: 95%;
+  margin: auto;
+  margin-bottom: 80px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.program {
+  padding: 20px 30px;
+  color: #24305e;
+}
+
+.program-title {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.program-details {
+  font-size: 18px;
+}
+
+.register-btn {
+  margin: auto;
+  text-align: center;
+  background-color: #9ed8db;
+  border-radius: 30px;
+  padding: 15px 20px;
+  width: 80%;
+  margin-top: 20px;
+  margin-left: 10%;
+  margin-bottom: 40px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #24305e;
+  transition: opacity 0.5s;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.register-btn:hover {
+  opacity: 0.8;
+  transition: opacity 0.5s;
+}
