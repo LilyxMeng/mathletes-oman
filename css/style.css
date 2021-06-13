@@ -272,7 +272,7 @@ input[type="reset"] {
 
 @media (max-width: 900px) {
   .page-title {
-    font-size: 60px;
+    font-size: 55px;
   }
 }
 
@@ -345,7 +345,7 @@ input[type="reset"] {
   align-items: center;
   margin-bottom: 10px;
   transition: opacity 0.5s;
-  color: blacks;
+  color: black;
 }
 
 .footer-social-link:hover {
