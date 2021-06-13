@@ -12,16 +12,7 @@
 }
 
 .page-title {
-  font-size: 70px;
   color: #f8e9a1;
-  text-align: center;
-  padding: 20px;
-}
-
-@media (max-width: 900px) {
-  .page-title {
-    font-size: 60px;
-  }
 }
 
 .about-description {
