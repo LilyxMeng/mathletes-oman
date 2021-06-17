@@ -1,0 +1,12 @@
+{
+  "hosting": {
+    "site": "mathletesoman",
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
+
