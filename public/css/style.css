@@ -59,8 +59,12 @@ input[type="reset"] {
 .nav-logo {
   width: 50px;
   border-radius: 50%;
-  margin: 8px;
+  /* margin: 8px; */
   border: 2px #9ed8db solid;
+}
+
+.nav-logo-a {
+  margin: 6px 8px 3px 9px;
 }
 
 .nav-title {
