@@ -65,7 +65,7 @@
   max-width: 770px;
   height: 45vw;
   max-height: 450px;
-  display:block;
+  display: block;
   margin: auto;
   margin-top: 50px;
 }
@@ -236,4 +236,31 @@
   .agenda-event {
     font-size: 16px;
   }
+}
+
+.sign-up-btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+  width: 95%;
+}
+.sign-up-btn {
+  background-color: #f8e9a1;
+  padding: 15px 0;
+  border-radius: 20px;
+  font-size: 25px;
+  color: #24305e;
+  font-weight: 600;
+  margin-bottom: 10px;
+  transition: opacity 0.5s;
+  text-align: start;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  width: 94vw;
+  text-align: center;
+}
+
+.sign-up-btn:hover {
+  opacity: 0.8;
+  transition: opacity 0.5s;
 }
