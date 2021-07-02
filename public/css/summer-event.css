@@ -187,6 +187,15 @@
 }
 
 /* agenda */
+.time-zone {
+  font-size: 20px;
+  font-weight: 600;
+  color: #24305e;
+  margin-top: -30px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
 .agenda {
   width: 95%;
   margin: auto;
